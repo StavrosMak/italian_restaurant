@@ -1,0 +1,43 @@
+.parallaxSection {
+    margin: 200px 0;
+    height: 500px;
+    position: relative;
+    background-image: url('../../Images/Gourme1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallaxScoll {
+    color: #fff;
+    font-size: 2em;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+
+    .parallaxScoll {
+        font-size: 1.1em;
+        top: 40%;
+        width: 100%;
+    }
+
+    .parallaxSection {
+        height: 300px;
+
+    }
+
+    .parallax {
+        /* height: 800px; */
+    }
+}

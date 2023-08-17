@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Home", "url": "/",
+        "cName": "nav-links",
+        "icon": "fa-solid fa-house-user"
+    },
+    {
+        "title": "About us",
+        "url": "#about", 
+        "cName": "nav-links",
+        "icon": "fa-solid fa-circle-info"
+    },
+    {
+        "title": "Menu",
+        "url": "#menu", "cName": "nav-links",
+        "icon": "fa-solid fa-briefcase"
+    },
+    {
+        "title": "Book",
+        "url": "#book",
+        "cName": "nav-links",
+        "icon": "fa-solid fa-address-book"
+    }
+]

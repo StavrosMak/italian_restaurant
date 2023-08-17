@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import HeroSection from "./components/HeroSection/HeroSection";
+import Navbar from './components/Navbar/Navbar';
+import SpecialiteSection from "./components/SpecialiteSection/SpecialiteSection";
+import Parallax from "./components/Parallax/Parallax";
+import Menu from "./components/MenuSection/Menu";
+import EmployeesSection from "./components/EmployeesSection/EmployeesSection";
+import RestaurantHourSection from "./components/RestaurantHoursSection/RestaurantHourSection";
+import BookSection from "./components/BookSection/BookSection";
+import './style.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <HeroSection />
+      <SpecialiteSection />
+      <Parallax />
+      <Menu />
+      <EmployeesSection />
+      <RestaurantHourSection />
+      <BookSection />
     </div>
   );
 }

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+.Menu {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* max-width: 1400px; */
+    width: 100%;
+    margin: auto;
+    min-height: 900px;
+    height: 100%;
+
+}
+
+.MenuHeader {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 23px;
+    padding: 1em;
+}
+
+.MenuList ul {
+    display: flex;
+
+    min-height: 40px;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.MenuList ul li button {
+    padding: .7em;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+
+
+.selected {
+    transition: all .3s;
+    color: #fff;
+    background-color: #B7903C;
+    /* border: 1px solid black; */
+}
+
+
+.meal-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    max-width: 1200px;
+    width: 100%;
+    gap: 1em;
+
+}
+
+
+.mealItem {
+    justify-self: center;
+    max-width: 600px;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    gap: 3em;
+    padding: 2em;
+}
+
+.leftSide {
+    width: 150px;
+    height: 150px;
+    /* justify-self: flex-start; */
+    /* align-self: center; */
+}
+
+.leftSide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.rightSide {
+    width: 550px;
+}
+
+.mealHeader {
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mealTitle {
+    color: #B7903C;
+    padding: 1em 0;
+}
+
+.mealPrice {
+    /* color: #FFA500; */
+    color: #D2401E;
+    font-weight: bold;
+}
+
+.mealInfo {
+    color: #858585;
+    /* color: #617D98; */
+}
+
+
+@media screen and (max-width:768px) {
+
+
+    .meal-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        max-width: 350px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        gap: 1em;
+        font-size: 14px;
+    }
+
+    .mealItem {
+        max-width: 450px;
+    }
+
+
+}
