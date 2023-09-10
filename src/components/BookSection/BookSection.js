@@ -37,7 +37,7 @@ export default function BookSection() {
   };
 
   return (
-    <div className="BookSection">
+    <div className="BookSection" id='book'>
       <h3>Book Your Table.</h3>
       <form className='form' onSubmit={handleFormSubmit}>
         <input

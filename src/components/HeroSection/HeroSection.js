@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export default function HeroSection() {
 
     return (
-        <div className='HeroSection'>
+        <div className='HeroSection' id='#'>
             <div className="banner-content">
                 <h1 className='backgroundText'>La Piazza Italiana</h1>
                 <h1>Taste our italian flavors</h1>

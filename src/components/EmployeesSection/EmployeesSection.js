@@ -3,7 +3,7 @@ import EmployeeCard from './EmployeeCard';
 export default function EmployeesSection() {
 
     return (
-        <div className="EmployeesSection">
+        <div className="EmployeesSection" id='about'>
 
             <div className="aboutUsText">
                 <h2 className='aboutUsHeader'>From Family Kitchen to Your Table.</h2>

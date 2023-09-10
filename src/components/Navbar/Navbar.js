@@ -1,5 +1,6 @@
 import React, { useState } from "react"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 // import NavbarItems from '../data/Links.json';
 import NavbarItems from '../data/Links.json'
 
@@ -33,7 +34,7 @@ export default function Navbar() {
                             return (
                                 <li key={index} className={`${item.cName}`}>
                                     {/* <Link to='/' className="linkItem"  >{item.title}</Link> */}
-                                    <Link
+                                    <Link smooth
                                         to={item.url}
                                         className="linkItem"
                                         onClick={() => {

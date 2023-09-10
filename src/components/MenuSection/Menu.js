@@ -23,7 +23,7 @@ export default function Menu() {
         meal => selectedCategory === 'All' || meal.category === selectedCategory
         );
     return (
-        <div className="Menu">
+        <div className="Menu" id='menu'>
             <div className="MenuHeader">
                 <h2 className="MenuTitle">Menu</h2>
                 <div className="MenuList">
