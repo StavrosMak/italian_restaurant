@@ -1,25 +1,12 @@
-import HeroSection from "./components/HeroSection/HeroSection";
-import Navbar from './components/Navbar/Navbar';
-import SpecialiteSection from "./components/SpecialiteSection/SpecialiteSection";
-import Parallax from "./components/Parallax/Parallax";
-import Menu from "./components/MenuSection/Menu";
-import EmployeesSection from "./components/EmployeesSection/EmployeesSection";
-import RestaurantHourSection from "./components/RestaurantHoursSection/RestaurantHourSection";
-import BookSection from "./components/BookSection/BookSection";
+import Home from './Routes/Home';
 import './style.css';
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HeroSection />
-      <SpecialiteSection />
-      <Parallax />
-      <Menu />
-      <EmployeesSection />
-      <RestaurantHourSection />
-      <BookSection />
+      <Home />
     </div>
   );
 }
 
-export default App;
+
+

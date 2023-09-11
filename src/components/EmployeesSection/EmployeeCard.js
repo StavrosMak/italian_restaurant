@@ -1,5 +1,3 @@
-import profileImg from '../../Images/profil.jpg';
-// import profileImg2 from '../../Images/photoProfil2.jpg';
 import profileImg2 from '../../Images/photoProfil22.png';
 import './EmployeesSection.css'
 export default function EmployeeCard() {
