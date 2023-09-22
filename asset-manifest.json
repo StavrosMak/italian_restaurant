@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/italian_restaurant/static/css/main.bcd21c2a.css",
+    "main.js": "/italian_restaurant/static/js/main.2ecebd5f.js",
+    "static/media/Gourme1.jpg": "/italian_restaurant/static/media/Gourme1.82cb04ad60cf2e8d7b96.jpg",
+    "static/media/restaurant-interior.jpg": "/italian_restaurant/static/media/restaurant-interior.5540157fbec5d3e0f4ba.jpg",
+    "static/media/Gourme2.jpg": "/italian_restaurant/static/media/Gourme2.6df02f20fc02eab05a30.jpg",
+    "static/media/pizzaBkg2.jpg": "/italian_restaurant/static/media/pizzaBkg2.0b63aa0f60dd83ec3090.jpg",
+    "static/media/pizza6.png": "/italian_restaurant/static/media/pizza6.befcc341f212ae03aca9.png",
+    "static/media/rissoto.png": "/italian_restaurant/static/media/rissoto.ead99a65a9d21bd2741b.png",
+    "static/media/linguine.png": "/italian_restaurant/static/media/linguine.2a873996b1bfdcb504a1.png",
+    "static/media/bruschetta.png": "/italian_restaurant/static/media/bruschetta.ee302831dfeb03029f8c.png",
+    "static/media/gnocchi.png": "/italian_restaurant/static/media/gnocchi.7064015cec6488978dca.png",
+    "static/media/caprese.png": "/italian_restaurant/static/media/caprese.309f373490ab68d70552.png",
+    "static/media/chickenMarsala.png": "/italian_restaurant/static/media/chickenMarsala.406d702a28d6db572df2.png",
+    "static/media/tiramisu.png": "/italian_restaurant/static/media/tiramisu.395014a463b987fc8466.png",
+    "static/media/penne.png": "/italian_restaurant/static/media/penne.05b4eef90140e77608e3.png",
+    "static/media/photoProfil22.png": "/italian_restaurant/static/media/photoProfil22.4acc39e67314b3035790.png",
+    "static/media/gourme5.jpg": "/italian_restaurant/static/media/gourme5.25e3c0b443c862431303.jpg",
+    "static/media/gourme7.jpg": "/italian_restaurant/static/media/gourme7.9c7e28f124df42aa6949.jpg",
+    "static/media/gourme3.jpg": "/italian_restaurant/static/media/gourme3.93a17e33dd9094717d0f.jpg",
+    "static/media/gourme6.jpg": "/italian_restaurant/static/media/gourme6.dfea8d72bb97eddbbdcb.jpg",
+    "static/media/gourme22.jpg": "/italian_restaurant/static/media/gourme22.0ed8396f114c165f3db6.jpg",
+    "index.html": "/italian_restaurant/index.html",
+    "main.bcd21c2a.css.map": "/italian_restaurant/static/css/main.bcd21c2a.css.map",
+    "main.2ecebd5f.js.map": "/italian_restaurant/static/js/main.2ecebd5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd21c2a.css",
+    "static/js/main.2ecebd5f.js"
+  ]
+}
