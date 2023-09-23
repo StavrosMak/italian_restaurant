@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/italian_restaurant/static/css/main.bcd21c2a.css",
-    "main.js": "/italian_restaurant/static/js/main.2ecebd5f.js",
+    "main.css": "/italian_restaurant/static/css/main.f70dc7ab.css",
+    "main.js": "/italian_restaurant/static/js/main.69ac1c9c.js",
     "static/media/Gourme1.jpg": "/italian_restaurant/static/media/Gourme1.82cb04ad60cf2e8d7b96.jpg",
     "static/media/restaurant-interior.jpg": "/italian_restaurant/static/media/restaurant-interior.5540157fbec5d3e0f4ba.jpg",
     "static/media/Gourme2.jpg": "/italian_restaurant/static/media/Gourme2.6df02f20fc02eab05a30.jpg",
@@ -22,11 +22,11 @@
     "static/media/gourme6.jpg": "/italian_restaurant/static/media/gourme6.dfea8d72bb97eddbbdcb.jpg",
     "static/media/gourme22.jpg": "/italian_restaurant/static/media/gourme22.0ed8396f114c165f3db6.jpg",
     "index.html": "/italian_restaurant/index.html",
-    "main.bcd21c2a.css.map": "/italian_restaurant/static/css/main.bcd21c2a.css.map",
-    "main.2ecebd5f.js.map": "/italian_restaurant/static/js/main.2ecebd5f.js.map"
+    "main.f70dc7ab.css.map": "/italian_restaurant/static/css/main.f70dc7ab.css.map",
+    "main.69ac1c9c.js.map": "/italian_restaurant/static/js/main.69ac1c9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd21c2a.css",
-    "static/js/main.2ecebd5f.js"
+    "static/css/main.f70dc7ab.css",
+    "static/js/main.69ac1c9c.js"
   ]
 }
