@@ -1,9 +1,7 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .HeroSection {
     position: relative;
-    /* top: 5em; */
     height: 400px;
 
     padding-bottom: 45%;
@@ -31,31 +29,15 @@
 }
 
 .banner-content {
-    /* position: relative;
-    top: 16vw;
-    left: 3em;
-    text-align: center;
-   
-    color: #ffffff;
-    text-shadow: 1px 1px;
-    z-index: 1;
-    overflow-wrap: break-word;
-    width: 90%;
-    max-width: 60vw; */
     color: #fff;
-    /* margin: auto; */
     position: relative;
-    /* top: 13em; */
     top: 12vw;
-    /* background-color: black; */
-
-    /* color: black; */
     height: 100%;
     text-align: center;
 
 }
 
-.backgroundText{
+.backgroundText {
     opacity: 0.14;
 }
 
@@ -66,32 +48,13 @@
 
 .banner-content p {
     font-size: 1.2rem;
-    /* font-weight: 200; */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-color: rebeccapurple; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* .banner-content button { */
-    /* padding: 1rem 2rem;
-    font-size: 1.2rem;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 2rem;
-    margin: 1rem 0;
-    transition: background-color 0.2s ease;
-
-
-} */
-
-/* .banner-content button:hover {
-    background-color: #333;
-    color: #fff;
-} */
-
-/* For screens up to 767px */
 @media (max-width: 767px) {
+    .HeroSection{
+        height:500px;
+    }
     .banner {
         background-size: cover;
         background-position: center;
@@ -101,7 +64,7 @@
         max-width: 100%;
         max-width: 100%;
         text-align: center;
-        top: 17vw;
+        top: 25vw;
         left: 0em;
         padding: 1em;
         margin: auto;
@@ -132,9 +95,9 @@
     position: relative;
     z-index: 1;
     top: 20px;
-   }
-   
-   .main_div::before {
+}
+
+.main_div::before {
     content: '';
     position: absolute;
     width: 30px;
@@ -146,9 +109,9 @@
     border-top: 3px solid var(--color);
     border-left: 3px solid var(--color);
     transition: 0.5s;
-   }
-   
-   .main_div::after {
+}
+
+.main_div::after {
     content: '';
     position: absolute;
     width: 40px;
@@ -160,24 +123,22 @@
     border-right: 3px solid var(--color);
     border-bottom: 3px solid var(--color);
     transition: 0.5s;
-   }
-   
-   .main_div:hover::before {
+}
+
+.main_div:hover::before {
     width: 100%;
     height: 100%;
-   }
-   
-   .main_div:hover::after {
+}
+
+.main_div:hover::after {
     width: 100%;
     height: 100%;
-   }
-   
-   .main_div button {
+}
+
+.main_div button {
     padding: 0.3em 2em;
     font-size: 20px;
-    /* background: #222222; */
-    /* color: #fff; */
     border: none;
     cursor: pointer;
     font-family: inherit;
-   }
+}

@@ -12,8 +12,7 @@
     justify-content: center;
     justify-content: space-around;
     height: 100%;
-    /* gap: 2em; */
-    /* gap: 1.5em; */
+ 
 }
 
 .SpecialiteList {
@@ -47,8 +46,12 @@
 }
 
 .Specialty .mealInfo{
-    /* background-color: red; */
     width: 100%;
-    /* width: 550px; */
-    /* text-align: start; */
+ 
+}
+
+@media screen and (max-width:768px){
+    .SpecialiteSection{
+        padding: 10px;
+    }
 }

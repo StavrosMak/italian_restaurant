@@ -1,102 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-button {
-    border: none;
-    outline: none;
-}
-
-:root {
-    --navbarItemsGap: 0.8em;
-
-}
-
 .Navbar {
     position: fixed;
-    top: 0px;
-    z-index: 2;
-    background-color: white;
-    height: 7em;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: auto;
     width: 100%;
-    background: transparent;
+    align-items: center;
+    color: #fff;
+    height: 80px;
+    padding: 0 20px;
+    font-size: 20px;
+    z-index: 1000;
     font-family: 'Bebas Neue', sans-serif;
-    transition: all 0.4s;
+    font-size: 2rem;
+    justify-content: center;
 }
 
-.colorChange{
+.colorChange {
     background-color: black;
     transition: all 0.4s;
 }
 
-.menu-icon {
-    display: none;
-}
-
-.NavbarItems {
+.rightSideNav {
+    padding: 10px;
     display: flex;
     align-items: center;
-    justify-self: center;
-    height: 100%;
-    width: 100%;
+}
+
+.leftSideNav {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    width: 500px;
     margin: auto;
-    font-size: 1.5rem;
+    transition: all 0.2s;
 
 }
 
-.nav-links a {
-    padding: .2em;
-    /* color: #000000; */
-    color: #fff;
-    text-decoration: none;
-    border-radius: 10px;
-
-}
-
-.NavbarSiteBrand {
-   
-    position: absolute;
-    top: 30%;
-    left: 3%;
-    font-size: 40px;
-    text-decoration: none;
-    color: #fff;
-
-}
-a{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
-}
-
-.NavbarSiteBrand img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.NavbarLinks {
-    /* background-color: black; */
-    margin: auto;
-}
-
-.nav-menu {
-    /* style */
-    list-style: none;
-    font-size: 1.8rem;
-
-    /* display */
+.navLinks {
     display: flex;
-
-    gap: var(--navbarItemsGap);
-    white-space: nowrap;
-
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+    margin: 0;
 }
 
-.nav-menu .nav-links {
-    position: relative;
-
+.navLinks li {
+    margin: 0.5em 0;
+     position: relative;
 }
 
-.nav-menu .nav-links::before {
+.navLinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLinks li::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -104,125 +68,58 @@ a{
     width: 0;
     height: 2px;
     background-color: rgba(0, 0, 0, 0.4);
-    background-color: rgba(255, 255, 255, 0.4);
     transition: width 0.2s ease-in-out;
 }
 
-.nav-menu li:hover::before {
+.navLinks li:hover::before {
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
-.Navbar .hidden {
+.fas {
     display: none;
 }
 
-
-.signUpBtn {
-    padding: 0.5rem 1rem;
-    white-space: nowrap;
-    border-radius: 0.3em;
-    font-size: 1rem;
-    font-weight: 600;
-    display: none;
-    border: none;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
+@media screen and (min-width: 769px) {
+    .leftSideNav {
+        max-height: 100%;
+        opacity: 1;
+    }
 }
 
-.signUpBtn:hover {
-    background-color: #151516;
-    color: #fff;
-}
-
-.nav-menu.active {
-    transition: 0.2s ease-in-out;
-
-    left: 0;
-    opacity: 1;
-    z-index: -1;
-}
-
-.mobile-actions {
-    display: none;
-}
-
-.NavbarActions {
-    width: 120px;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.NavbarActions button {
-    display: flex;
-    font-size: 24px;
-}
-
-
-
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
     .Navbar {
-        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+        background-color: black;
+         
     }
 
-    .signUpBtn {
-        display: none-block;
-    }
-
-    .NavbarActions {
-        display: none;
-    }
-
-    .menu-icon {
+    .fas {
         display: block;
-        position: absolute;
-        right: 10%;
     }
 
-    .NavbarItems {
+    .rightSideNav {
         width: 100%;
         justify-content: space-between;
     }
 
-    .nav-menu {
-        /* display & position */
-        flex-direction: column;
+    .leftSideNav.active {
+        max-height: 1000px;
+        opacity: 1;
+        transition: all 0.2s;
+    }
+
+    .navLinks {
+        background-color: black;
         position: absolute;
-        overflow: auto;
-        top: 4em;
-        left: -100%;
-        align-items: center;
-        opacity: 0;
-
-        /* color * size */
-        background-color: #fff;
-        width: 100%;
-        min-height: 100vh;
-
-    }
-
-    .nav-links {
-        display: block;
-        font-size: 2rem;
-        padding: 0.5em 0;
-    }
-
-    .NavbarSiteBrand {
-        height: 100%;
-        /* width: 100px; */
         text-align: center;
-    }
-
-    .Navbar .mobile-actions {
-        display: flex;
-        gap: 0.8em;
         flex-direction: column;
+        width: 100%;
+        top: 50px;
+        left: 0;
+        padding: 20px;
+        box-sizing: border-box;
+        height: 100vh;
     }
-
-    .Navbar button {
-        padding: 0.4em;
-        font-size: 1.3em;
-    }
-
 }
