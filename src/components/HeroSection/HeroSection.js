@@ -12,7 +12,7 @@ export default function HeroSection() {
                 <h1 className='backgroundText'>La Piazza Italiana</h1>
                 <h1>Taste our italian flavors</h1>
                 <p>Don't miss this opportunity to save big on your favorite items. Limited time offer.</p>
-                <Link className='main_div' to="#menu">
+                <Link className='main_div' to="menu">
                     <button>Taste</button>
                 </Link>
             </div>
